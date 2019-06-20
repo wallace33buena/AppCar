@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="8dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewServico"
+        android:layout_alignParentLeft="true"
+        android:text="Serviços"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alterar"
+        android:textColor="#3f5185"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:id="@+id/textViewAlterar"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textColor="#c20a10"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:id="@+id/textViewDelete"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>
